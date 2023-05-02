@@ -13,6 +13,10 @@ app.post('/', function(req, res) {
   });
 });
 
+app.get('/hola-mundo', function(req, res) {
+  res.send('Hola mundo 123');
+});
 
 // Export your Express configuration so that it can be consumed by the Lambda handler
-module.exports = app
+module.exports = app;
+
