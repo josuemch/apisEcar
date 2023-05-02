@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getHelloWorld, postHelloWorld, getHolaMundo } from "./apis-ecar.controllers";
+import { getHelloWorld, postHelloWorld, getHolaMundo } from "./../controllers/apis-ecar.controllers";
 
 const router = Router();
 
