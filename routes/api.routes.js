@@ -1,10 +1,13 @@
-import { Router } from "express";
-import { getHelloWorld, postHelloWorld, getHolaMundo } from "./../controllers/apis-ecar.controllers";
-
-const router = Router();
+const express = require("express");
+const router = express.Router();
+const {
+    getHelloWorld,
+    postHelloWorld,
+    getHolaMundo,
+} = require("./../controllers/apis-ecar.controllers");
 
 router.get("/", getHelloWorld);
 router.post("/", postHelloWorld);
 router.get("/hola-mundo", getHolaMundo);
 
-export default router;
+module.exports = router;
