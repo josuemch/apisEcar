@@ -8,11 +8,8 @@
         "express": "^4.17.1"
     },
     "devDependencies": {
-        "mocha": "^5.2.0",
         "supertest": "^3.0.0",
         "unit.js": "^2.1.1"
     },
-    "scripts": {
-        "test": "mocha --recursive tests"
-    }
+    "scripts": {}
 }
